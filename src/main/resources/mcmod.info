@@ -1,10 +1,10 @@
 [
 {
-  "modid": "xreliquary",
-  "name": "Reliquary",
+  "modid": "${modId}",
+  "name": "${modName}",
   "description": "Two words: magical swag. Oh, and a gun.",
-  "version": "${version}",
-  "mcversion": "1.2.DEV",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
   "url": "",
   "updateUrl": "",
   "authorList": [
@@ -15,8 +15,8 @@
   "screenshots": [
   ],
   "parent": "",
-  "requiredMods": [ "libsandstone@[1.0.0,)" ],
-  "dependencies": [ "libsandstone@[1.0.0,)" ],
+  "requiredMods": [ "libsandstone@[1.0.0,)", "Baubles" ],
+  "dependencies": [ "libsandstone@[1.0.0,)", "Baubles" ],
   "dependants": [  ],
   "useDependencyInformation": "true"
 }

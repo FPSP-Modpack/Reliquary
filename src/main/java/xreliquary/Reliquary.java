@@ -32,7 +32,7 @@ import xreliquary.util.potions.PotionMap;
 
 import java.io.File;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = "xreliquary.client.gui.XRGuiFactory")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = "xreliquary.client.gui.XRGuiFactory", dependencies = "required-after:libsandstone;required-after:Baubles;")
 @SandstoneMod(basePackage = "xreliquary")
 public class Reliquary {
 

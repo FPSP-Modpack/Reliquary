@@ -1,0 +1,4 @@
+dependencies {
+    compile('com.github.FPSP-Modpack:libsandstone:1.0.2:dev')
+    compile('com.github.GTNewHorizons:Baubles:1.0.1.14:dev')
+}
